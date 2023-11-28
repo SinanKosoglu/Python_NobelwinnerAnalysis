@@ -1,0 +1,359 @@
+### Hello World
+
+print("hello world")
+
+### Sayılar(numbers) ve karakter diziler(string)
+
+* int : 9 
+* float : 9.2
+
+# intege#r : tam sayı 
+# float : ondalıklı sayı 
+
+9
+
+9.6
+
+print(9.13)
+
+### Veri tipini sorgulama
+
+type(9)
+
+type(9.4)
+
+type("hello world") # string : text yani yazı türündeki kodlar 
+
+
+
+### Atamalar ve Değişkenler(Assignments & Variables)
+
+a = 9 
+
+a 
+
+b = 24.56
+
+b
+
+print(a + b)
+
+print(a * b)
+
+d = a + b
+
+d
+
+
+
+### Data Structures (Veri Yapıları)
+
+* en küçük yapı taşıdır
+* veri yapılarına giriş ve hızlı özet
+* sayılar(numbers) : int, float,complex
+* karakter dizileri(string) : str
+* boolen(true - false) : bool
+* liste(list)
+* sözlük (dictionary)
+* demet (tuple)
+
+
+### Veri Yapılarına Giriş ve Hızlı Özet
+
+# int 
+x = 53
+
+### Sayılar (numbers) : int , float, complex
+
+x = 53 # int 
+
+x
+
+type(x)
+
+# float 
+
+y = 53.6
+
+y 
+
+type(y)
+
+# boolen : true false 
+
+5 == 4
+
+x = 5 == 4
+
+x
+
+type(x)
+
+# liste 
+
+l = ["ali", "ahmet", "ahmet"]
+
+l
+
+type(l)
+
+# sözlük (dictionary)
+
+s = {"isim":"tolga", "yas":25}
+
+s
+
+type(s)
+
+# set :küme 
+
+ss = {"python","ml","data science"}
+
+ss
+
+type(ss)
+
+
+
+### Tipleri Değişirme
+
+# ondalık sayıyı integer a çevirelim
+
+
+c = 24.5
+
+# int - float 
+
+int(c)
+
+type(c)
+
+d = int(c)
+
+d
+
+type(d)
+
+### String(Karakter Dizileri)
+
+print("tolga")
+
+# atama yaparak deneyelim
+
+name = "tolga" 
+
+print(name)
+
+name
+
+# çok satırlı karakter dizileri
+
+long_str = """  
+merhaba bugün basit komutları işliyoruz
+
+"""
+
+long_str
+
+# değişken karakterlerine erişmek istersek  
+# index :0 dan başlar  
+
+long_str[3]
+
+long_str[0:10]
+
+### String(Karakter Dizisi) Methodları
+
+dir(str)
+
+# len : stringlerdeki boyut bilgisine erişmenizi sağlar 
+# len ler 1 den başlar 
+
+mat = "statistics"
+
+len(mat)
+
+# upper() : küçük yazılmış ifadeleri büyütür
+# lower() : büyük yazılmış ifadeleri küçültür
+
+"statistics".upper()
+
+"STATISTICS".lower()
+
+# replace : karakter değiştirir 
+
+hi = "hello friends" 
+
+# ilk önce değiştirmek istediğiniz harfi seçiyorsunuz sonra ne ile değiştirmek istediğinizi yazıyorsunuz 
+
+hi.replace("o","f")
+
+# split : böler 
+
+"hello friends".split()
+
+# capitalize : ilk harfi büyür 
+
+"foo".capitalize() 
+
+dir(str)
+
+### Liste(list)
+
+* değiştirilebilir
+* sıralıdır.Index işlemleri yapılabilir
+* kapsayıcıdır
+
+notes = [1,2,3,4]
+notes 
+
+type(notes)
+
+# kapyasıcıdır : yani sadece a ve b yi almaz içindeki tüm elamanları alır 
+
+not_name = [1,2,3,4, "a","b",True,[12,24,56]]
+
+not_name
+
+type(not_name)
+
+# elamana erişmek istiyorum
+# indexten saymaya başlar 
+
+not_name[5]
+
+not_name[7]
+
+not_name[7][2]
+
+type(not_name[7][2])
+
+dir(not_name)
+
+notes = [45, 67, 89, 100]
+
+# listede kaç eleman var 
+# len saymaya 1 den başlar 
+
+len(notes)
+
+# append methodu liste sonuna eklemeler yapar 
+
+notes.append(78)
+
+notes
+
+# pop : indexe göre elaman siler 
+
+notes.pop(0)
+
+notes
+
+notes.pop(1)
+
+### Sözlük(dictionary)
+
+* değiştirilebilir
+* sırasızdır ( 3.7 sürümünden sonra sıralı)
+* kapsayıcıdır
+
+# key - value 
+
+# key : anahtardır value onun ifade ettiği değerdir
+
+dictionary = {"Regresyon": "linear regression",
+             "categoric": "rekler", 
+              "numeric" : "yaş"}
+
+dictionary
+
+# bir keyin içerisindeki value değerini göstermek istersek 
+
+dictionary["Regresyon"]
+
+# key sorgulama
+
+"tolga" in dictionary
+
+"Regresyon" in dictionary
+
+# değiştirebilirlik
+
+dictionary["Regresyon"] = ["logistic regression"]
+
+dictionary
+
+dir(dictionary)
+
+# sadece bana keyleri ver 
+
+dictionary.keys()
+
+# sadece valueları ver
+
+dictionary.values()
+
+# hepsine erişmek isterseniz 2. yol
+
+dictionary.items()
+
+# eklemek isterseniz :update 
+
+dictionary.update({"logaritma": "aritmek"})
+
+dictionary
+
+### Demet(Tuple)
+
+* değiştirilemez
+* sıralıdır
+* kapsayıcıdır
+
+t = ("mark","john",35,40)
+
+type(t)
+
+t[0]
+
+# eleman değiştiremezsin
+
+t[0] = 99
+
+# eğer değiştirmek isterseniz listeye çevirmek zorundasınız 
+
+t = list(t)
+
+type(t)
+
+t[0] = 99
+
+t
+
+### Set (küme işlemleri)
+
+* değiştirilebilir
+* sırasız + eşsizdir
+* kapsayıcıdır
+
+# liste üzerinde set oluşturulur gibi düşünülebilir 
+
+set1 = set([2,5,7])
+set2 = set([2,4,7])
+
+type(set1)
+
+type(set2)
+
+# difference : set1 de olup set2 de olmayanlar 
+
+set1.difference(set2)
+
+set2.difference(set1)
+
+# intersection : iki kümenin kesişimi
+
+set1.intersection(set2)
+
+set1 & set2 # kesişim 
+
+set1 | set2 # birleşim

@@ -1,4 +1,4 @@
-***BASİT KOMUTLAR***
+**BASİT KOMUTLAR***
 
 ### Hello World
 

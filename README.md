@@ -1,6 +1,6 @@
-**BASİT KOMUTLAR***
+###BASİT KOMUTLAR
 
-### Hello World
+# Hello World
 
 print("hello world")
 

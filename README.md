@@ -9,7 +9,7 @@ print("hello world")
 * int : 9 
 * float : 9.2
 
-# intege#r : tam sayı 
+# integer : tam sayı 
 # float : ondalıklı sayı 
 
 9

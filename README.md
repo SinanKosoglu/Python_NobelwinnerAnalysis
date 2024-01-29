@@ -87,7 +87,7 @@ type(l)
 
 # sözlük (dictionary)
 
-s = {"isim":"tolga", "yas":25}
+s = {"isim":"sinan", "yas":35}
 
 s 
 
@@ -247,7 +247,7 @@ notes.pop(1)
 # key : anahtardır value onun ifade ettiği değerdir
 
 dictionary = {"Regresyon": "linear regression",
-             "categoric": "rekler", 
+             "categoric": "renkler", 
               "numeric" : "yaş"}
 
 dictionary
@@ -258,7 +258,7 @@ dictionary["Regresyon"]
 
 # key sorgulama
 
-"tolga" in dictionary
+"sinan" in dictionary
 
 "Regresyon" in dictionary
 
@@ -443,7 +443,7 @@ print(1,3)
 def say_hello(string = "merhaba"):
     print(string)
     print("hi")
-    print("tolga")
+    print("sinan")
 
 say_hello()
 
@@ -555,7 +555,7 @@ number_check(7)
 * while
 
 
-students = ["tolga","ahmet","selin","sena"]
+students = ["sinan","ahmet","selin","sena"]
 students[0]
 
 ### FOR
@@ -629,7 +629,7 @@ while number < 5:
 
 # index bilgisine erişmek için kullanılır 
 
-students = ["tolga","ahmet","selin","sena"] 
+students = ["sinan","ahmet","selin","sena"] 
 
 for index, student in enumerate(students):
     print(index, student)
@@ -638,7 +638,7 @@ for index, student in enumerate(students):
 
 * elimizde 3 farklı isimde liste var ve biz bu listelerin elamanlarını eşlemek yani beraber kullanmak istiyoruz
 
-students = ["tolga","ahmet","selin","sena"] 
+students = ["sinan","ahmet","selin","sena"] 
 
 department = ["data", "IT", "security","business"]
 
@@ -783,7 +783,7 @@ def alternating(string):
     print(yeni_string)
 
 
-alternating("tolga")
+alternating("sinan")
 
 alternating("hi my name is John and i am learning python")
 
@@ -836,4 +836,4 @@ def alternating_with_enumerate(string):
     print(yeni_string)
 
 
-alternating_with_enumerate("merhaba ben tolga ve python öğreniyorum")
+alternating_with_enumerate("merhaba ben sinan ve python öğreniyorum")

@@ -728,7 +728,7 @@ for salary in salaries:
 bos_liste
 
 # yine klasik yoldan 2. şey eklemek istiyorum
-# if else li bir şey de ekle
+# if else 
 
 for salary in salaries: 
     if salary > 30000: 

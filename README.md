@@ -1,40 +1,49 @@
 # Basit komutlar
 
-### Hello World
+Hello World
 
 print("hello world")
 
 ### Sayılar(numbers) ve karakter diziler(string)
 
-* int : 9 
+* int : 9
+  
 * float : 9.2
 
-# integer : tam sayı 
-# float : ondalıklı sayı 
+integer : tam sayı 
+
+float : ondalıklı sayı 
 
 ### Veri tipini sorgulama
 
 type(9)
+**integer
 
 type(9.4)
+**float
 
-type("hello world") # string : text yani yazı türündeki kodlar 
+type("hello world") 
+**string
 
 ### Atamalar ve Değişkenler(Assignments & Variables)
 
 a = 9 
-a
 
 b = 24.56
-b
 
 print(a + b)
 
+**33.56
+
 print(a * b)
+
+**221,04
 
 d = a + b
 
 d
+
+**33.56
 
 ### Data Structures (Veri Yapıları)
 
@@ -50,11 +59,14 @@ d
 
 
 
-### Veri Yapılarına Giriş
+# Veri Yapılarına Giriş
 
 ### Sayılar (numbers) : int , float, complex
 
-x = 53 # int 
+x = 53 
+
+# int 
+
 x
 
 type(x)
@@ -67,7 +79,7 @@ y
 
 type(y)
 
-# boolen : true false 
+### boolen : true false 
 
 5 == 4
 
@@ -77,7 +89,7 @@ x
 
 type(x)
 
-# liste 
+### liste 
 
 l = ["ali", "ahmet", "ahmet"]
 
@@ -85,7 +97,7 @@ l
 
 type(l)
 
-# sözlük (dictionary)
+### sözlük (dictionary)
 
 s = {"isim":"sinan", "yas":35}
 
@@ -93,7 +105,7 @@ s
 
 type(s)
 
-# set :küme 
+### set :küme 
 
 ss = {"python","ml","data science"}
 
@@ -101,14 +113,13 @@ ss
 
 type(ss)
 
-### Tipleri Değişirme
+# Tipleri Değişirme
 
-# ondalık sayıyı integer a çevirelim
-
+(ondalık sayıyı integer a çevirme)
 
 c = 24.5
 
-# int - float 
+(integer'dan  float türüne çevirme) 
 
 int(c)
 
@@ -116,19 +127,15 @@ type(c)
 
 d = int(c)
 
-d
-
 type(d)
 
-### String(Karakter Dizileri)
+# String(Karakter Dizileri)
 
 print("sinan")
 
-# atama yaparak deneyelim
+(atama yaparak yazımı)
 
 name = "sinan" 
-
-name
 
 # çok satırlı karakter dizileri
 

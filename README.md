@@ -1,4 +1,4 @@
-# PYTHON (Basit komutlar)
+# Basit komutlar
 
 ### Hello World
 

@@ -2,8 +2,7 @@
 .
 .
 .
-.
-.
+
 
 # BASİT KOMUTLAR
 

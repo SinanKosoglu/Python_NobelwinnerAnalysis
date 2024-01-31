@@ -4,11 +4,7 @@
 .
 .
 .
-.
-.
-.
-.
-.
+
 # BASİT KOMUTLAR
 
 # Hello World

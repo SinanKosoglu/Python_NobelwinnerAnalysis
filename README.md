@@ -1,4 +1,11 @@
-# GİRİŞ KONULARI VE HATIRLANMASI GEREKEN KOMUTLAR:
+# GİRİŞ KONULARI VE BASİT KOMUTLAR:
+.
+.
+.
+.
+.
+.
+.
 .
 .
 .

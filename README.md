@@ -1,4 +1,4 @@
-*** NOBEL PRIZE WINNERS DATA ANALYSIS
+*** Nobel prize winners' Data analysis and interpretation with visualization
 
 *** Within this analysis Pandas, Matplotlib and Plotly.express libraries have been used.  
 
